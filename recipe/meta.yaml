@@ -1,5 +1,5 @@
 {% set name = "pymatviz" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymatviz-{{ version }}.tar.gz
-  sha256: dd0930eca3782b7bc81465dc26eece25e234dbe8b026a0c3491b6250c92af65e
+  sha256: 5e5c23f023140fe8c666947ef9b0378e88516fc34016a5e4e30ca88d7270312b
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - matplotlib-base
+    - matplotlib-base >=3.6.2
     - numpy >=1.21.0
     - pandas
     - plotly
