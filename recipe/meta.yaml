@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - matplotlib-base
+    - matplotlib-base >=3.6.2
     - numpy >=1.21.0
     - pandas
     - plotly
