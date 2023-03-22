@@ -1,11 +1,11 @@
-About pymatviz
-==============
+About pymatviz-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatviz-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/janosh/pymatviz
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatviz-feedstock/blob/main/LICENSE.txt)
 
 Summary: A toolkit for visualizations in materials informatics
 
