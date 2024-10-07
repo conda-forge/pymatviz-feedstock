@@ -1,5 +1,5 @@
 {% set name = "pymatviz" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymatviz-{{ version }}.tar.gz
-  sha256: 631d42bfe6b5c60753af6de28b3b65be6751dc89547879b43b4f7705d1234f43
+  sha256: dd8867e1977ee2e2fd2743580bcb18c25db53decdac6f03dccccad1fde517e29
 
 build:
   noarch: python
