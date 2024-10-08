@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.10
     - setuptools
     - pip
   run:
-    - python >=3.9
+    - python >=3.10
     - matplotlib-base >=3.9
     - numpy >=1.26
     - pandas >=2.2
