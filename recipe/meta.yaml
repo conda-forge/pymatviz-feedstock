@@ -1,5 +1,5 @@
 {% set name = "pymatviz" %}
-{% set version = "0.13.1" %}
+{% set version = "0.13.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymatviz-{{ version }}.tar.gz
-  sha256: 74f80dc76e32ae5770fe48edbde86c2873e799d12837da70c00bc0632e60421c
+  sha256: 7f4d9e4d2f2d2474c60599226f5c1952cfb51cc6cf30fe81788f36c93d1654d9
 
 build:
   noarch: python
@@ -20,6 +20,7 @@ requirements:
     - setuptools
     - pip
   run:
+    - monty >=2024.10.21
     - python >=3.10
     - matplotlib-base >=3.9
     - numpy >=1.26
