@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "pymatviz" %}
-{% set version = "0.17.2" %}
+{% set version = "0.17.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymatviz-{{ version }}.tar.gz
-  sha256: dfc38ee1cb54dfb44e3117df1d0ceec4647ae2da6c69f4aec9789bdd3f1aa7da
+  sha256: bcb64f3198be7ecdde0c507b4e9ad2bc94b98461d3b0b5d28f0e6da16064e85f
 
 build:
   noarch: python
@@ -22,14 +22,14 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - python-kaleido >=1.0.0
+    - python-kaleido >=1.2.0
     - numpy >=2
     - anywidget >=0.9.18
-    - moyopy >=0.4.1
+    - moyopy >=0.7.1
     - nbformat >=5.10
     - pandas >=2.2
-    - plotly >=6
-    - pymatgen >=2025.2.18
+    - plotly >=6.4
+    - pymatgen >=2025.10.7
     - pyyaml >=6
     - scikit-learn >=1.5
     - scipy >=1.14
